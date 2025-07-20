@@ -10,3 +10,9 @@ frontend/lawcraftsman-frontend/dist/
 # Environment
 .env
 .DS_Store
+
+#cache
+hf_cache/
+
+#vector_store
+vector_store/
