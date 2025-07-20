@@ -53,11 +53,11 @@ qa_chain = RetrievalQA.from_chain_type(
 
 
 
-query="What is section 302 of IPC?"
-response = qa_chain.invoke(query)
+#query="What is section 302 of IPC?"
+#response = qa_chain.invoke(query)
 
-print("Answer:" ,response['result'])
+#print("Answer:" ,response['result'])
 
-for i,doc in enumerate(response['source_documents']):
-    print(f"\nSource {i+1} : \n{doc.page_content}")
+#for i,doc in enumerate(response['source_documents']):
+    #print(f"\nSource {i+1} : \n{doc.page_content}")
 
